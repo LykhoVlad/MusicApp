@@ -1,0 +1,359 @@
+{
+  "MyPlaylist": [
+    {
+      "id": "5ce2f7f8525739def645c8fd",
+      "guid": "fb777cf0-46bc-4cd1-9dca-0274464a02b5",
+      "imgUrl": "https://picsum.photos/id/163/300/300",
+      "author": "David Guetta",
+      "playlists": "Nothing but the Beat",
+      "title": "The Alphabet",
+      "time": "3:39"
+    },
+    {
+      "id": "5ce2f7f8354e2b1cca61c60c",
+      "guid": "82c8318b-8a53-4436-b6ae-398cf0e3828e",
+      "imgUrl": "https://picsum.photos/id/141/300/300",
+      "author": "Imagine Dragons",
+      "playlists": "Night Visions",
+      "title": "Demons",
+      "time": "4:14"
+    },
+    {
+      "id": "5ce2f7f8809c7d4eed79a84d",
+      "guid": "b6724243-5591-42ce-94ea-714afb678b76",
+      "imgUrl": "https://picsum.photos/id/139/300/300",
+      "author": "Dash Berlin",
+      "playlists": "The New Daylight",
+      "title": "Till The Sky Falls Down",
+      "time": "4:34"
+    },
+    {
+      "id": "5ce2f7f86b6cb24fa600f999",
+      "guid": "792b6aa2-ca25-412a-a4cf-a4bc7ab46a4e",
+      "imgUrl": "https://picsum.photos/id/59/300/300",
+      "author": "Shakira",
+      "playlists": "Sale el Sol",
+      "title": "Loca",
+      "time": "3:34"
+    },
+    {
+      "id": "5ce2f7f8f7c37804b31eb7b2",
+      "guid": "f9b59156-91d5-475b-9fba-146c306bdce4",
+      "imgUrl": "https://picsum.photos/id/137/300/300",
+      "author": "David Guetta",
+      "playlists": "Nothing but the Beat",
+      "title": "Titanium",
+      "time": "3:54"
+    },
+    {
+      "id": "5ce2f7f894870e4130792964",
+      "guid": "de35817a-1ebd-4313-b61c-b80ec0949c39",
+      "imgUrl": "https://picsum.photos/id/114/300/300",
+      "author": "Calvin Harris",
+      "playlists": "Motion",
+      "title": "Ecstasy",
+      "time": "5:01"
+    },
+    {
+      "id": "5ce2f7f8e1d574a4591f3566",
+      "guid": "117ad49e-57cb-4dcb-ad3f-70b2a0e89c39",
+      "imgUrl": "https://picsum.photos/id/39/300/300",
+      "author": "Calvin Harris",
+      "playlists": "Motion",
+      "title": "Summer",
+      "time": "4:22"
+    },
+    {
+      "id": "5.364040462182265e+23",
+      "guid": "1ea2111240-1c664-1d93b-1a16a-1db33191c813957",
+      "imgUrl": "https://picsum.photos/id/111/300/300",
+      "author": "Mozgi",
+      "playlists": "Shaurma",
+      "time": "1",
+      "title": "Chooyka"
+    },
+    {
+      "id": "2.885778639013681e+23",
+      "guid": "17629161c6-19710-167ac-1901c-1767d1ad241d2f7",
+      "imgUrl": "https://picsum.photos/id/11/300/300",
+      "author": "Mozgi",
+      "playlists": "Shaurma",
+      "time": "2.00",
+      "title": "Chooyka"
+    }
+  ],
+  "Hotlist": [
+    {
+      "id": "5ce2f7f83a72a1d08f880e24",
+      "guid": "cc38404a-658f-404f-873e-d51945ae90d7",
+      "imgUrl": "https://picsum.photos/id/188/300/300",
+      "author": "Andrew Rayel",
+      "playlists": "Find Your Harmony",
+      "title": "Find Your Harmony",
+      "time": "4:24"
+    },
+    {
+      "id": "5ce2f7f82461455a23540862",
+      "guid": "582e6241-43cd-461c-bd9c-a1cd52ccb5a6",
+      "imgUrl": "https://picsum.photos/id/81/300/300",
+      "author": "Imagine Dragons",
+      "playlists": "Evolve",
+      "title": "Believer",
+      "time": "3:54"
+    },
+    {
+      "id": "5ce2f7f8654ce3f725ecf815",
+      "guid": "e5ea8ae1-83ca-4b42-b5a3-ab66f09389e2",
+      "imgUrl": "https://picsum.photos/id/182/300/300",
+      "author": "Avicii",
+      "playlists": "Levels",
+      "title": "Wake Me Up",
+      "time": "3:39"
+    },
+    {
+      "id": "5ce2f7f85ab44ba318409a8c",
+      "guid": "f667770b-e15b-43ca-bc83-477eb3749713",
+      "imgUrl": "https://picsum.photos/id/38/300/300",
+      "author": "Lady Gaga",
+      "playlists": "The Fame Monster",
+      "title": "Alejandro",
+      "time": "3:33"
+    },
+    {
+      "id": "5ce2f7f89e19e4d41ebca6ff",
+      "guid": "d21ee282-4d81-4745-9d59-ee07ec2a750f",
+      "imgUrl": "https://picsum.photos/id/13/300/300",
+      "author": "Nickelback",
+      "playlists": "Dark Horse",
+      "title": "Never Gonna Be Alone",
+      "time": "3:13"
+    },
+    {
+      "id": "5ce2f7f829ca7d98c8401de9",
+      "guid": "e66158af-6135-4f36-b1ba-2ca058918696",
+      "imgUrl": "https://picsum.photos/id/50/300/300",
+      "author": "Michael Jackson",
+      "playlists": "Thriller",
+      "title": "Thriller",
+      "time": "2:59"
+    },
+    {
+      "id": "5ce2f7f894870e4130792964",
+      "guid": "de35817a-1ebd-4313-b61c-b80ec0949c39",
+      "imgUrl": "https://picsum.photos/id/114/300/300",
+      "author": "Calvin Harris",
+      "playlists": "Motion",
+      "title": "Ecstasy",
+      "time": "5:01"
+    },
+    {
+      "id": "5ce2f7f86b6cb24fa600f999",
+      "guid": "792b6aa2-ca25-412a-a4cf-a4bc7ab46a4e",
+      "imgUrl": "https://picsum.photos/id/59/300/300",
+      "author": "Shakira",
+      "playlists": "Sale el Sol",
+      "title": "Loca",
+      "time": "3:34"
+    }
+  ],
+  "post": [
+    {
+      "id": "5ce2f7f83a72a1d08f880e24",
+      "guid": "cc38404a-658f-404f-873e-d51945ae90d7",
+      "imgUrl": "https://picsum.photos/id/188/300/300",
+      "author": "Andrew Rayel",
+      "playlists": "Find Your Harmony",
+      "title": "Find Your Harmony",
+      "time": "4:24"
+    },
+    {
+      "id": "5ce2f7f85f17364a79c1ed1c",
+      "guid": "b1d59bec-2806-462d-9a6b-5ab488d25327",
+      "imgUrl": "https://picsum.photos/id/172/300/300",
+      "author": "Imagine Dragons",
+      "playlists": "Evolve",
+      "title": "Whatever It Takes",
+      "time": "3:59"
+    },
+    {
+      "id": "5ce2f7f82461455a23540862",
+      "guid": "582e6241-43cd-461c-bd9c-a1cd52ccb5a6",
+      "imgUrl": "https://picsum.photos/id/81/300/300",
+      "author": "Imagine Dragons",
+      "playlists": "Evolve",
+      "title": "Believer",
+      "time": "3:54"
+    },
+    {
+      "id": "5ce2f7f86769db6b45e9a64a",
+      "guid": "3fdfff62-ffe6-4b30-822a-ecc4e3ed1675",
+      "imgUrl": "https://picsum.photos/id/51/300/300",
+      "author": "Avicii",
+      "playlists": "Levels",
+      "title": "Levels",
+      "time": "3:26"
+    },
+    {
+      "id": "5ce2f7f86b6cb24fa600f999",
+      "guid": "792b6aa2-ca25-412a-a4cf-a4bc7ab46a4e",
+      "imgUrl": "https://picsum.photos/id/59/300/300",
+      "author": "Shakira",
+      "playlists": "Sale el Sol",
+      "title": "Loca",
+      "time": "3:34"
+    },
+    {
+      "id": "5ce2f7f85ab44ba318409a8c",
+      "guid": "f667770b-e15b-43ca-bc83-477eb3749713",
+      "imgUrl": "https://picsum.photos/id/38/300/300",
+      "author": "Lady Gaga",
+      "playlists": "The Fame Monster",
+      "title": "Alejandro",
+      "time": "3:33"
+    },
+    {
+      "id": "5ce2f7f8654ce3f725ecf815",
+      "guid": "e5ea8ae1-83ca-4b42-b5a3-ab66f09389e2",
+      "imgUrl": "https://picsum.photos/id/182/300/300",
+      "author": "Avicii",
+      "playlists": "Levels",
+      "title": "Wake Me Up",
+      "time": "3:39"
+    },
+    {
+      "id": "5ce2f7f8a1bb409795e331e7",
+      "guid": "252178f0-9287-4b06-b109-2d53df3c501e",
+      "imgUrl": "https://picsum.photos/id/127/300/300",
+      "author": "ATB",
+      "playlists": "Seven Years",
+      "title": "Ecstasy",
+      "time": "3:13"
+    },
+    {
+      "id": "5ce2f7f88e12cd1712159342",
+      "guid": "fceb4ab8-2a29-4b30-8067-71eb963d64ae",
+      "imgUrl": "https://picsum.photos/id/47/300/300",
+      "author": "Imagine Dragons",
+      "playlists": "Evolve",
+      "title": "Thunder",
+      "time": "3:39"
+    },
+    {
+      "id": "5ce2f7f825e0b9af32c01f73",
+      "guid": "d26daff4-41a4-474e-b769-39843620c985",
+      "imgUrl": "https://picsum.photos/id/113/300/300",
+      "author": "Michael Jackson",
+      "playlists": "Thriller",
+      "title": "Billie Jean",
+      "time": "4:09"
+    },
+    {
+      "id": "5ce2f7f8a43b49d692143056",
+      "guid": "1e6d0f20-cb10-4126-b913-f11fcf1afa1f",
+      "imgUrl": "https://picsum.photos/id/80/300/300",
+      "author": "Lady Gaga",
+      "playlists": "The Fame",
+      "title": "Paparazzi",
+      "time": "3:47"
+    },
+    {
+      "id": "5ce2f7f89e19e4d41ebca6ff",
+      "guid": "d21ee282-4d81-4745-9d59-ee07ec2a750f",
+      "imgUrl": "https://picsum.photos/id/13/300/300",
+      "author": "Nickelback",
+      "playlists": "Dark Horse",
+      "title": "Never Gonna Be Alone",
+      "time": "3:13"
+    },
+    {
+      "id": "5ce2f7f829ca7d98c8401de9",
+      "guid": "e66158af-6135-4f36-b1ba-2ca058918696",
+      "imgUrl": "https://picsum.photos/id/50/300/300",
+      "author": "Michael Jackson",
+      "playlists": "Thriller",
+      "title": "Thriller",
+      "time": "2:59"
+    },
+    {
+      "id": "5ce2f7f894870e4130792964",
+      "guid": "de35817a-1ebd-4313-b61c-b80ec0949c39",
+      "imgUrl": "https://picsum.photos/id/114/300/300",
+      "author": "Calvin Harris",
+      "playlists": "Motion",
+      "title": "Ecstasy",
+      "time": "5:01"
+    },
+    {
+      "id": "5ce2f7f8e1d574a4591f3566",
+      "guid": "117ad49e-57cb-4dcb-ad3f-70b2a0e89c39",
+      "imgUrl": "https://picsum.photos/id/39/300/300",
+      "author": "Calvin Harris",
+      "playlists": "Motion",
+      "title": "Summer",
+      "time": "4:22"
+    },
+    {
+      "id": "5ce2f7f8012731a265ef132c",
+      "guid": "3c73b39a-7df0-463c-902e-fe69c954e0c5",
+      "imgUrl": "https://picsum.photos/id/161/300/300",
+      "author": "Imagine Dragons",
+      "playlists": "Night Visions",
+      "title": "Radioactive",
+      "time": "4:43"
+    },
+    {
+      "id": "5ce2f7f8d285a8bd99aae862",
+      "guid": "f51df477-d777-48ad-9adb-29420d54b6f6",
+      "imgUrl": "https://picsum.photos/id/176/300/300",
+      "author": "Andrew Rayel",
+      "playlists": "Moments",
+      "title": "Let it Be Forever",
+      "time": "4:44"
+    },
+    {
+      "id": "5ce2f7f8525739def645c8fd",
+      "guid": "fb777cf0-46bc-4cd1-9dca-0274464a02b5",
+      "imgUrl": "https://picsum.photos/id/163/300/300",
+      "author": "David Guetta",
+      "playlists": "Nothing but the Beat",
+      "title": "The Alphabet",
+      "time": "3:39"
+    },
+    {
+      "id": "5ce2f7f8354e2b1cca61c60c",
+      "guid": "82c8318b-8a53-4436-b6ae-398cf0e3828e",
+      "imgUrl": "https://picsum.photos/id/141/300/300",
+      "author": "Imagine Dragons",
+      "playlists": "Night Visions",
+      "title": "Demons",
+      "time": "4:14"
+    },
+    {
+      "id": "5ce2f7f8809c7d4eed79a84d",
+      "guid": "b6724243-5591-42ce-94ea-714afb678b76",
+      "imgUrl": "https://picsum.photos/id/139/300/300",
+      "author": "Dash Berlin",
+      "playlists": "The New Daylight",
+      "title": "Till The Sky Falls Down",
+      "time": "4:34"
+    },
+    {
+      "id": "5ce2f7f8f7c37804b31eb7b2",
+      "guid": "f9b59156-91d5-475b-9fba-146c306bdce4",
+      "imgUrl": "https://picsum.photos/id/137/300/300",
+      "author": "David Guetta",
+      "playlists": "Nothing but the Beat",
+      "title": "Titanium",
+      "time": "3:54"
+    },
+    {
+      "id": "5.364040462182265e+23",
+      "guid": "1ea2111240-1c664-1d93b-1a16a-1db33191c813957",
+      "imgUrl": "https://picsum.photos/id/111/300/300",
+      "author": "Mozgi",
+      "playlists": "Shaurma",
+      "time": "1",
+      "title": "Chooyka"
+    }
+  ]
+}

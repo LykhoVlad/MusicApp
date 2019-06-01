@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MusicApp</title>
+    <link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>    
+    <!-- MENU START -->
+        <div id="menu">
+            <ul id="navigation">
+                <li><a href="#" id="home">Home Page</a></li>
+                <li><a href="#" id="hot">Hotlist</a></li>
+                <li><a href="#" id="myplay">My Playlist</a></li>
+            </ul>
+            <button id="addNewMCard">Add New Music Card</button>
+        </div>
+                <!-- MENU END -->
+            <!-- MUSIC CARD START -->
+    <div class="albumItem" id="album">
+        <img class="albumImg">
+           <div class="menu-content">
+               <button class="playB" id="playButton"></button>
+               <button class="addB" id="addToMyPlaylist"></button>
+           </div>
+           <div class="musicInfo">
+               <h3 class="musName"></h3>
+               <p class="musTitle"></p>
+               <span class="time"></span>
+               <input type="image" id="contextMenu" src="img/info.png" alt="info">
+               <!-- CONTENT MENU START  -->
+                    <!-- <div class="context-menu">
+                            <button id="closedCMenu">x</button>
+                        <ul class="dl-menu">
+                            <li>
+                                <a href="#">Item 1</a>
+                                <a href="#">Item 2</a>
+                        </ul>
+                    </div> -->
+                <!-- CONTENT MENU END  -->
+           </div> 
+       </div>
+            <!-- MUSIC CARD END -->
+            <!-- SEARCH START -->
+            <!-- <div id="musicSearch">
+                    <input type="text" id="searching" placeholder="Search...">
+                    <input type="button" id="quest" value="Search">
+                </div><br> -->
+             <!-- SEARCH END -->
+             
+            <!-- PAGE CONTAINER START -->
+        <section id="musicContainer" class="contain">
+                <div id="result">
+                </div>
+        </section>
+            <!-- PAGE CONTAINER END-->
+             <!-- MODAL TEMPLATE START -->
+           <div id="modal-details" class="modal overlay" role="dialog">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Card details</h5>
+                      <button
+                        type="button"
+                        id="close-btn" 
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <form id="form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="cardAuthor">Author</label>
+                                <input type="text" class="form-control  validItem" id="cardAuthor" placeholder="Author" name="author">
+                              </div>
+                          <div class="form-group">
+                            <label for="cardTitle">Title</label>
+                            <input type="text" class="form-control  validItem" id="cardTitle" placeholder="Title" name="title">
+                          </div>
+                          <div class="form-group">
+                            <label for="cardTime">Time</label>
+                            <input type="number" class="form-control  validItem" id="cardTime" placeholder="Time" name="time">
+                          </div>
+                          <div class="form-group">
+                            <label for="cardPlaylist">Playlist</label>
+                            <input type="text" class="form-control  validItem" id="cardPlaylist" placeholder="Playlist" name="playlist">
+                          </div>                              
+                          <div class="form-group">
+                            <label for="cardImgUrl">Image</label>
+                            <input type="text" class="form-control validItem" id="cardImgUrl" placeholder="Link to image" name="image">
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button id="save-btn" type="submit" class="btn btn-primary" onclick="addNewCard()">Save changes</button>
+                      <button id="edit-btn" type="button" class="btn btn-primary" onclick="editCard()" >Edit</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <!-- MODAL TEMPLATE END -->
+            <!-- JS START -->
+    <script src="js/underscore.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="js/main.js"></script>
+            <!-- JS END -->
+</body>
+</html>
