@@ -48,6 +48,12 @@ const createCard = (post) => {
 
 	clonedElement.find(".time")
 		.text(post.time);
+	
+	clonedElement.find(".infoPop")
+		.prop("id", post["id"]+1)
+
+	clonedElement.find(".popup-info")
+		.prop("id", post["id"]+2)
 };
 // CREATE MUSIC CARD END
 
@@ -67,11 +73,11 @@ const createPageSection = (event) => {
 			break;
 	}
 };
-$(document).ready(function(){
-	$(".trigger").click(function(){
-	$(".dl-menu").slideToggle();
-   })
-})
+// $(document).ready(function(){
+// 	$(".trigger").click(function(){
+// 	$(".dl-menu").slideToggle();
+//    })
+// })
 
 $(() => {
 	renderSection(dbPost);
@@ -130,7 +136,7 @@ $('#close-btn').click(function(){
 
 // MODAL WINDOW END
 // ADD MUSIC CARD FROM FORM START
-	const addNewCard = () => {
+const addNewCard = () => {
 	const createId =  Math.round (Math.random()*1e24);
 	const createGuid = (function(){
 		function s4(){
@@ -142,21 +148,68 @@ $('#close-btn').click(function(){
 	})();
 
 	const newData = {};
-
-	const inputAuthor = $("#cardAuthor");
-	const inputTitle = $("#cardTitle");
-	const inputTime = $("#cardTime");
-	const inputPlaylists = $("#cardPlaylist");
-	const inputAddImage = $("#cardImgUrl");
-
+	
 	newData.id = createId;
 	newData.guid = createGuid();
-	newData.imgUrl = inputAddImage.val();
-	newData.author = inputAuthor.val();
-	newData.playlists = inputPlaylists.val();
-	newData.time = inputTime.val();
-	newData.title = inputTitle.val();
+	newData.imgUrl = $("#cardImgUrl").val();
+	newData.author = $("#cardAuthor").val();
+	newData.playlists = $("#cardPlaylist").val();
+	newData.time = $("#cardTime").val();
+	newData.title = $("#cardTitle").val();
 
-	$.post(dbPost, newData);
+	$('#musicContainer').css('filter', 'blur(0px)');
+	$('.modal').fadeOut();
+	$('#menu').fadeIn();
+	$('.contain').css('filter', 'none');
+
+	$.ajax({
+		type: "POST",
+		url: dbPost,
+		data: newData,
+		success: createCard,
+		error: function (jqXHR, textStatus, errorThrown){
+			alert("Request failed: " + textStatus);
+		}
+	  });
+	  
 };
 // ADD MUSIC CARD FROM FORM END
+// VALIDATION START
+function checkInput(){
+	let inputImgUrl = $("#cardImgUrl").val();
+	let inputAuthor = $("#cardAuthor").val();
+	let inputPlaylists = $("#cardPlaylist").val();
+	let inputTime = $("#cardTime").val();
+	let inputTitle = $("#cardTitle").val();
+
+	if(inputImgUrl.trim() !== "" & inputAuthor.trim() !== "" & inputPlaylists.trim() !== "" & inputTime.trim() !== "" & inputTitle.trim() !== "" ){
+		$('#save-btn').css('background-color', '#58F7F6');
+		$('#save-btn').attr('disabled', false);
+	} else{
+		$('#save-btn').css('background-color', 'grey');
+		$('#save-btn').attr('disabled', true);
+	}
+}
+// VALIDATION END
+// POPUP START
+// $('.info-input').click(function(){
+// 	$('#musicContainer').css('filter', 'blur(5px)');
+// 	$('#menu').fadeOut();
+// 	$('.popup-info').fadeIn();
+// });
+
+// $('#close-popup').click(function(){
+// 	$('.popup-info').fadeOut();
+// 	$('#menu').fadeIn();
+// 	$('.contain').css('filter', 'none');
+// });
+
+$('#5ce2f7f8f7c37804b31eb7b21').click(function(){
+	$('#musicContainer').css('filter', 'blur(5px)');
+	$('#5ce2f7f8f7c37804b31eb7b22').fadeIn();
+});
+$('.overlay_popup').click(function(){
+	$('.overlay_popup, .infoPop').hide();
+})
+
+// POPUP END

@@ -80,6 +80,33 @@
       "playlists": "Shaurma",
       "time": "2.00",
       "title": "Chooyka"
+    },
+    {
+      "id": "5ce2f7f8d285a8bd99aae862",
+      "guid": "f51df477-d777-48ad-9adb-29420d54b6f6",
+      "imgUrl": "https://picsum.photos/id/176/300/300",
+      "author": "Andrew Rayel",
+      "playlists": "Moments",
+      "title": "Let it Be Forever",
+      "time": "4:44"
+    },
+    {
+      "id": "5ce2f7f8a43b49d692143056",
+      "guid": "1e6d0f20-cb10-4126-b913-f11fcf1afa1f",
+      "imgUrl": "https://picsum.photos/id/80/300/300",
+      "author": "Lady Gaga",
+      "playlists": "The Fame",
+      "title": "Paparazzi",
+      "time": "3:47"
+    },
+    {
+      "id": "4.3772323022277115e+23",
+      "guid": "1ed0d1b885-11215-14453-10b34-10f6410b7b1afec",
+      "imgUrl": "https://picsum.photos/id/11/300/300",
+      "author": "Mozgi",
+      "playlists": "Shaurma",
+      "time": "2",
+      "title": "Chooyka"
     }
   ],
   "Hotlist": [
@@ -356,12 +383,12 @@
       "title": "Chooyka"
     },
     {
-      "id": "2.885778639013681e+23",
-      "guid": "17629161c6-19710-167ac-1901c-1767d1ad241d2f7",
+      "id": "4.179447654841146e+23",
+      "guid": "1ff1b19fc6-1c55a-1ff80-13ab3-12db1139a016a11",
       "imgUrl": "https://picsum.photos/id/11/300/300",
       "author": "Mozgi",
       "playlists": "Shaurma",
-      "time": "2.00",
+      "time": "2",
       "title": "Chooyka"
     }
   ]

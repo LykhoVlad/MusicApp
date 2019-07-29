@@ -29,18 +29,19 @@
                <h3 class="musName"></h3>
                <p class="musTitle"></p>
                <span class="time"></span>
-               <input type="image" id="contextMenu" src="img/info.png" alt="info">
-               <!-- CONTENT MENU START  -->
-                    <!-- <div class="context-menu">
-                            <button id="closedCMenu">x</button>
-                        <ul class="dl-menu">
-                            <li>
-                                <a href="#">Item 1</a>
-                                <a href="#">Item 2</a>
-                        </ul>
-                    </div> -->
-                <!-- CONTENT MENU END  -->
+               <input type="image" id="contextMenu" class="infoPop" src="img/info.png" alt="info">
            </div> 
+           <!-- POPUP WINDOW START -->
+           <div id="popup1" class="popup-info">
+             <div class="object">
+                 <div id="close-popup">X</div>
+                 <div id="popup-img"></div>
+                 <div class="popup-content">
+                     ewkpfepwlr
+                 </div>
+             </div>
+           </div>
+         <!-- POPUP WINDOW END -->
        </div>
             <!-- MUSIC CARD END -->
             <!-- SEARCH START -->
@@ -77,42 +78,46 @@
                         <div class="form-row">
                             <div class="form-group">
                                 <label for="cardAuthor">Author</label>
-                                <input type="text" class="form-control  validItem" id="cardAuthor" placeholder="Author" name="author">
+                                <input type="text" class="form-control  validItem" id="cardAuthor" oninput="checkInput()" placeholder="Author" name="author">
                               </div>
                           <div class="form-group">
                             <label for="cardTitle">Title</label>
-                            <input type="text" class="form-control  validItem" id="cardTitle" placeholder="Title" name="title">
+                            <input type="text" class="form-control  validItem" id="cardTitle" oninput="checkInput()" placeholder="Title" name="title">
                           </div>
                           <div class="form-group">
                             <label for="cardTime">Time</label>
-                            <input type="number" class="form-control  validItem" id="cardTime" placeholder="Time" name="time">
+                            <input type="number" class="form-control  validItem" id="cardTime" oninput="checkInput()" placeholder="Time" name="time">
                           </div>
                           <div class="form-group">
                             <label for="cardPlaylist">Playlist</label>
-                            <input type="text" class="form-control  validItem" id="cardPlaylist" placeholder="Playlist" name="playlist">
+                            <input type="text" class="form-control  validItem" id="cardPlaylist" oninput="checkInput()" placeholder="Playlist" name="playlist">
                           </div>                              
                           <div class="form-group">
                             <label for="cardImgUrl">Image</label>
-                            <input type="text" class="form-control validItem" id="cardImgUrl" placeholder="Link to image" name="image">
+                            <input type="text" class="form-control validItem" id="cardImgUrl" oninput="checkInput()" placeholder="Link to image" name="image">
                           </div>
                         </div>
+
                       </form>
                     </div>
                     <div class="modal-footer">
-                      <button id="save-btn" type="submit" class="btn btn-primary" onclick="addNewCard()">Save changes</button>
-                      <button id="edit-btn" type="button" class="btn btn-primary" onclick="editCard()" >Edit</button>
+                      <button id="save-btn" type="submit" class="btn btn-primary" onclick="addNewCard()" disabled>Save changes</button>
+                      <!-- <button id="edit-btn" type="button" class="btn btn-primary" onclick="editCard()" >Edit</button> -->
                     </div>
                   </div>
                 </div>
               </div>
             <!-- MODAL TEMPLATE END -->
+            
             <!-- JS START -->
     <script src="js/underscore.js"></script>
     <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
 		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
     </script>
     <script src="js/main.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
             <!-- JS END -->
 </body>
 </html>
